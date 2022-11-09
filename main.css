@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "myMontserrat";
+  src:url("C:/Users/sjdmu/Documents/Fonts/Montserrat/MontserratAlternates-Bold.otf");
+}
+body {
+  background: #3B9E9E;
+  color: white;
+  text-align: center;
+}
+
+
+.title_box {
+  font-size: 50px;
+  font-family: "myMontserrat";
+  background-color: green;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 10px;
+  padding: 20px 0;
+  margin: auto;
+}
+.clock {
+  color: white;
+  font-size: 40px;
+  font-family: "myMontserrat";
+  letter-spacing: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.stopwatch_container {
+  background-color: green;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 10px;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.timerDisplay {
+  font-size: 30px;
+  font-family: "myMontserrat";
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.controls button {
+  background: none
+  border: none;
+  outline: none;
+  user-select: none;
+
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+  font-family: "myMontserrat";
+  color: white;
+  background-color: #C70039;
+  border-radius: 7px;
+  user-select: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  background-color: #145400;
+}
